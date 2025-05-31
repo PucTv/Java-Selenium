@@ -1,0 +1,5 @@
+com\e2e\utils\ConfigReader.class
+com\e2e\pages\LoginPage.class
+com\e2e\pages\CommonFunctions.class
+com\e2e\resources\locators\LoginPageLocators.class
+com\e2e\base\BaseTest.class
