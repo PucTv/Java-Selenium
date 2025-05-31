@@ -12,7 +12,7 @@ public class ConfigReader {
         if (prop == null) {
             prop = new Properties();
             try {
-                FileInputStream ip = new FileInputStream("src/main/resources/config/config.properties");
+                FileInputStream ip = new FileInputStream("src/main/java/com/e2e/config/config.properties");
                 prop.load(ip);
             } catch (IOException e) {
                 e.printStackTrace();

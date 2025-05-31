@@ -23,7 +23,7 @@ public class LoginTest {
 
     @Test
     public void testLoginFailure() {
-        loginPage.login("invalidEmail", "invalidPassword");
+        loginPage.login("invalidEmail@gmail.com", "invalidPassword");
         loginPage.loginFailure();
     }
 
